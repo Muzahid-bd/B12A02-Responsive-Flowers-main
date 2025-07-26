@@ -118,3 +118,56 @@ body {
   font-size: 1rem;
   font-weight: 600;
 }
+
+/* Plant Lover Section */
+
+.plant-lovers {
+  margin-top: 210px;
+  display: flex;
+  justify-content: space-between;
+
+  /* align-items: center; */
+}
+
+.left {
+  width: 540px;
+  position: relative;
+}
+.bottom {
+  position: absolute;
+  width: 540px;
+  height: 600px;
+  /* height: 540px; */
+}
+.badge {
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  top: -127px;
+  left: 347px;
+}
+
+.message-for-plant-lovers {
+  margin-top: 38px;
+  width: 540px;
+}
+.message-for-plant-lovers h2 {
+  font-family: "Noto Serif";
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: black;
+}
+.message-for-plant-lovers ul li {
+  font-family: "inter";
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.5);
+  list-style: disc;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding-left: 30px;
+  line-height: 1.8rem;
+}
+
+.latest-details {
+  margin-top: 130px;
+}
